@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(14, 41, 14);
+
+}
+  h1 {
+    color: #00f529;
+    background-color: #030a0e;
+    outline-color: #35ff02;
+    border: 1px solid #00f529;
+    border-radius: 80px;
+    font-family: arial;
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    height: 50%;
+    z-index: 1000;
+    margin-left: 35%;
+  }
+
+
+  /* ფოტო */
+  .photo {
+    width: 800px;
+    height: 700px;
+    animation-name: photo-anim;
+    animation-duration: 3s;
+    margin-top: -1200%;
+    margin-right: 100%;
+    position: relative;
+    border-radius: 50%;
+    top: 290px;
+    animation-iteration-count: infinite;
+  }
+  @keyframes photo-anim {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(200px);
+      border-radius: 50%;
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+
+
+
+p {
+    font-size: 1.5rem;
+    color: lime;
+    margin: 0rem;
+    padding: 0.5rem;
+    text-align: center;
+    width: 120%;
+    padding-left: 40%;
+    padding-top: 2%;
+    font-size: 0.9vw;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+    margin-top: 0%;
+    margin-left: -50%;
+    margin-right: auto;
+  }
